@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Wassup?", "How's it going", "Bonjour"],
+      "responses": ["🖖 Hey explorer—what career path can I light up for you?", "Hi! Ready to map your next move?", "Greetings, career voyager 🚀"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Adios", "Ttyl"],
+      "responses": ["✌️ Catch you on the next level!", "Bye—may your code compile and your path rise!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated"],
+      "responses": ["🤗 Any time!", "Glad to help—go conquer!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["🤔 Could you re-phrase? I’m still learning.", "Tell me a bit more so I can guide you."]
+    },
+
+    {
+      "tag": "after_msc_mathematics",
+      "patterns": ["after msc mathematics", "msc math govt job", "phd after msc math"],
+      "responses": ["💡 PhD (Math / CS / Data Science), Actuarial exams, UGC-NET for teaching, or pivot to finance & analytics.", "🔍 Add Python & SQL to unlock data-science roles."]
+    },
+    {
+      "tag": "bsc_mathematics",
+      "patterns": ["bsc mathematics worth it", "ignou bsc math", "math vs chemistry honours"],
+      "responses": ["✅ Strong base → data, finance, teaching, MS abroad.", "🧮 Expect deeper theory; pair with CS electives for employability."]
+    },
+    {
+      "tag": "bsc_statistics",
+      "patterns": ["bsc statistics scope", "after bsc stats", "stats vs eco"],
+      "responses": ["📊 Leads to data analyst, actuary, ISS, MSc/PhD.", "🎯 Combine with Python/R for high-growth roles."]
+    },
+    {
+      "tag": "bsc_computer_science",
+      "patterns": ["bsc cs good", "cs without math 12th", "cs vs bca"],
+      "responses": ["💻 Great if you love logic & coding; can land dev roles or pursue MCA/MS.", "⚠️ Math in 12th helps—bridge gaps with MOOCs if needed."]
+    },
+
+    {
+      "tag": "who_made_you",
+      "patterns": ["who created you", "who is your maker"],
+      "responses": ["🤖 Built with ❤️ by open-source creators."]
+    }
+  ]
+}
